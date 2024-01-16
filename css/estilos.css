@@ -4,7 +4,7 @@ form{
     padding: 3%;
     border-radius: 10px;
     margin: auto;
-    background-color: #8bc1d8;
+    background-color: #a3d5b8;
 }
 div{
     display: flex;
@@ -19,7 +19,7 @@ input{
     margin-bottom: 12px;
 }
 .login{
-    border: 2px solid black;
+    border: 2px solid rgb(122, 206, 220);
     padding: 15px 5px;
 }
 
