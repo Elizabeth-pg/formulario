@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORMULARIO</title>
     <link rel="stylesheet" href="css/estilos.css">
-</head>
+</head> 
 <body>
   <h1>Este es mi formulario </h1>
     <form name="formulario" action="ejecutar-codigo.php" method="post" id="miformulario" >
@@ -25,6 +25,16 @@
          <input type="password" name="pass" placeholder="contraseña" minlength="11" required>
         
         </div>
+        <div>
+            <input type="text" placeholder="su modelo de coche" title="modelos posibles: A1, A3, A4 Y A5" pattern="A|a (1|3|4|5)" >
+        </div>
+
+        <div>
+            <label for="correo">Email</label>
+            <input type="email" id="correo" placeholder="Escribe tu email"required>
+        </div>
+
+
 
 
 
